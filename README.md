@@ -5,7 +5,7 @@ Demetria McAleer
 
 This project webscraped Wikipedia to get ideologies of 578 rebel groups in civil wars.  I did this by creating URLs to run a Google search for each rebel group's Wikipedia page, then saving the first link.  Then I loop through the links to go to each Wikipedia page, check to make sure it is a Wikipedia page and formatted as expected, and use Beautiful Soup to parse the results.  I find the box in the upper right hand corner of each page using HTML tags, find the row for ideology, and save the results.
 
-Unfortunately, it turned out that not all the Wiki pages were formatted in the same way, so I wound up with only 129 ideologies.  So, for the second part of the project, I went back and scraped the content of the Wikipedia pages, and used clustering and text analysis in R to analyze the content, for the groups' with usable Wiki pages.
+Unfortunately, it turned out that not all the Wiki pages were formatted in the same way, so I wound up with only 129 ideologies.  So, for the second part of the project, I went back and scraped the content of the Wikipedia pages, and used clustering and structural topic modeling in R to analyze the content on the usable Wikipedia pages.
 
 ## Dependencies
 
@@ -28,7 +28,8 @@ Unfortunately, it turned out that not all the Wiki pages were formatted in the s
 
 ### Results
 
-1. ...graphics?
+1. crazy_dendrogram.jpeg: Cluster dendrogram on content of Wikipedia pages.
+2. stm.jpeg: Structural topic model of content of Wikipedia pages.
 
 ## More Information
 
