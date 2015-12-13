@@ -19,10 +19,11 @@ Unfortunately, it turned out that not all the Wiki pages were formatted in the s
 ### Data
 
 1. "search_terms.csv": List of rebel groups and governments.  Taken from Cunningham, Gleditsch, and Salehyan (2013) Non-State Actor Data (available http://privatewww.essex.ac.uk/~ksg/eacd.html).  A few names have been changed from the original dataset to remove special characters/accent marks.
+2. "content-ideo.csv": Results from Wikipedia scrape, for analysis in R.
 
 ### Code
 
-1. 01_collect-wiki.py: Collects data from Wikipedia pages and exports to CSV.
+1. 01_wiki-scrape.ipynb: Collects data from Wikipedia pages and exports to CSV.
 2. 02_text-analysis.R: Text analysis and visualizations in R.
 
 ### Results
