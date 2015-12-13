@@ -1,4 +1,5 @@
 PS 239T Final Project
+
 Demetria McAleer
 
 ## Short Description
@@ -34,5 +35,7 @@ Unfortunately, it turned out that not all the Wiki pages were formatted in the s
 ## More Information
 
 Demetria McAleer
+
 PhD Student, UC Berkeley
+
 dfmcaleer@berkeley.edu
